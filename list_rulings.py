@@ -110,6 +110,8 @@ def test_set(set_id):
 
     wait()
 
+  log(f"Found {len(hit_cards)} hits in {set_id}")
+
   return hit_cards
 
 
